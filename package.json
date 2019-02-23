@@ -1,0 +1,19 @@
+{
+  "name": "custom-server-express",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node index.js",
+    "export": "next export"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "^8.0.2",
+    "next-nprogress": "^1.4.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "styled-jsx": "3.0.0"
+  }
+}
